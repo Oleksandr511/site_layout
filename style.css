@@ -1,0 +1,871 @@
+/* lato-regular - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin_latin-ext-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lato-700 - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/lato-v24-latin_latin-ext-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-sans-georgian-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans Georgian';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/noto-sans-georgian-v42-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-sans-georgian-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans Georgian';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/noto-sans-georgian-v42-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-sans-georgian-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans Georgian';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/noto-sans-georgian-v42-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-sans-georgian-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans Georgian';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/noto-sans-georgian-v42-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-sans-georgian-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans Georgian';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/noto-sans-georgian-v42-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-sans-georgian-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans Georgian';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/noto-sans-georgian-v42-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+
+}
+
+/* header styles start */
+
+.header {
+    position: fixed;
+    width: 1920px;
+    height: 85px;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-bottom: 5px;
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.header_active {
+    background: lightblue;
+    opacity: 0.9;
+}
+
+.wrapper {}
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30.32px;
+    padding-bottom: 31.64px;
+    padding-left: 275px;
+}
+
+.header__logo {}
+
+.header__logo-link {
+    color: rgb(1, 153, 109);
+    text-decoration: none;
+    position: absolute;
+    width: 79.57px;
+
+    line-height: 25px;
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    color: rgb(41, 41, 41);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    position: relative;
+    justify-content: space-between;
+    padding-right: 283px;
+    padding-left: 173px;
+}
+
+.header__list a {
+    color: rgb(41, 41, 41);
+    color: rgb(41, 41, 41);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header__item {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(41, 41, 41);
+
+}
+
+.header__item:first-child {}
+
+.header__link {
+    text-decoration: none;
+}
+
+.cta__buttons {
+    top: -15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.sign-in {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.start-trial {
+    margin-right: 276px;
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 153, 109);
+    border-radius: 4px;
+    padding: 13px 50px;
+    color: rgb(255, 255, 255);
+    background: rgb(1, 153, 109);
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+
+
+/* header styles end */
+
+/* Intro styles start */
+
+.body {}
+
+.main {}
+
+.intro {
+    background:
+        linear-gradient(137.42deg, rgb(255, 255, 255) 18.151%, rgba(255, 255, 255, 0) 53.069%),
+        url(./img/intro.png) no-repeat right;
+    position: relative;
+    width: 1920px;
+    height: 895px;
+    top: 86px;
+    bottom: -1px;
+    margin-left: 175px;
+    margin-bottom: 78px;
+}
+
+
+.intro__wrapper {
+    position: absolute;
+    padding-top: 175px;
+    padding-left: 100px;
+
+}
+
+.intro__title {
+    color: rgb(1, 153, 109);
+    font-family: 'Noto Sans Georgian';
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    width: 440px;
+    height: 148px;
+}
+
+.intro__subtitle {
+    position: absolute;
+    width: 420px;
+    height: 123px;
+
+    padding-top: 178px;
+
+    text-align: left;
+}
+
+.primary__btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 153, 109);
+    border-radius: 4px;
+
+    background: rgb(1, 153, 109);
+    /* btn-primary */
+    position: auto;
+    width: 227px;
+    height: 65px;
+    margin-top: 319px;
+
+
+    /* text */
+    color: rgb(255, 255, 255);
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+
+
+}
+
+/* Intro styles end */
+
+/* How it works start */
+
+.how-it-works {
+    /* How it works */
+    position: absolute;
+    width: 1391px;
+    height: 327px;
+    left: 275px;
+    right: -253px;
+    top: 1150px;
+    bottom: -91px;
+}
+
+.how-it-works_title {
+    color: rgb(66, 66, 66);
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+.how-it-works_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 52px;
+}
+
+.Understand {
+    color: rgb(1, 153, 109);
+    font-family: 'Noto Sans Georgian';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 584px;
+    height: 158px;
+
+}
+
+.how-it-works_text {
+    width: 671px;
+    color: rgb(66, 66, 66);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 38px;
+}
+
+
+
+/* How it works end */
+
+/* cards */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 103px;
+
+}
+
+.card {
+    position: relative;
+    align-items: start;
+
+}
+
+.card:nth-child(2) {
+    margin-top: 205px;
+}
+
+.card:nth-child(3) {
+    margin-top: 53px;
+}
+
+.card-pic {
+    position: relative;
+}
+
+
+.card-pic .overlay_pic {
+    position: absolute;
+    z-index: 2;
+    width: 185px;
+    height: 148px;
+    left: 205px;
+    top: 225px;
+}
+
+.number {
+    color: rgba(1, 153, 109, 0.2);
+    font-family: Georgia;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.name {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    top: 135px;
+    left: 88px;
+}
+
+.name:nth-child(2) {
+    left: 79px;
+}
+
+.name:nth-child(3) {
+    left: 124px;
+}
+
+.card__text {
+    color: rgb(66, 66, 66);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.card-pic {
+    border-radius: 12px;
+    z-index: 2;
+}
+
+.card_img {
+    max-width: 390px;
+    max-height: 492px;
+}
+
+/* cards */
+/* story */
+.story {}
+
+.story__wrapper {
+    position: absolute;
+    width: 1920px;
+    height: 922px;
+    left: 0;
+    right: 0;
+    top: 1566px;
+    background: rgb(36, 88, 82);
+}
+
+.video {
+    position: relative;
+    top: 163px;
+    left: 818px;
+    border-radius: 16.33px;
+}
+
+.story__text__wrapper {
+    position: relative;
+    top: 310px;
+    left: 207px;
+}
+
+.story__title {
+    position: absolute;
+    width: 580px;
+    height: 158px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.story__text {
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    top: 191px;
+    width: 550px;
+    height: 39px;
+}
+
+.storry__button {
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 153, 109);
+    border-radius: 4px;
+    background: rgb(1, 153, 109);
+    position: absolute;
+    width: 240px;
+    height: 65px;
+    top: 287px;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 20px 50px 20px 50px;
+}
+
+/* story */
+
+/* product */
+
+.product {}
+
+.product__wrapper {
+    position: absolute;
+    top: 2629px;
+    left: 275px;
+}
+
+.custome__block {
+    float: left;
+    width: 50%;
+    padding-bottom: 168px;
+}
+
+.product__image {
+
+    border-radius: 18.11px;
+    background: rgba(1, 153, 109, 0.2);
+    padding-left: 97px;
+    height: 638px;
+
+}
+
+.custome__product {
+    border-radius: 3.73px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 296.14px;
+    height: 293.9px;
+    left: -60px;
+    top: 429px;
+}
+
+.custom__image {
+}
+
+.custome__product img {
+    background: rgba(54, 37, 147, 0.2);
+    object-fit: cover;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 113px;
+    border-radius: 50%;
+}
+
+.custom__title {
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 14.49px;
+    font-weight: 600;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.custom__name {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 11.94px;
+    font-weight: 400;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 64px;
+    left: 127px;
+}
+
+.custom__content {
+    color: rgb(0, 0, 0);
+    font-family: Georgia;
+    font-size: 15.93px;
+    font-weight: 700;
+    line-height: 157%;
+    letter-spacing: 0%;
+
+    text-align: left;
+    padding-left: 61px;
+    padding-top: 88px;
+    padding-bottom: 16px;
+}
+
+.custom__list li {
+    padding-left: 61px;
+    padding-top: 16px;
+    list-style-position: inside;
+}
+
+.product__block {
+    float: left;
+    width: 50%;
+
+}
+
+.product__block__elements {
+    padding-left: 86px;
+}
+
+.product__block__title {
+    width: 136px;
+    height: 39px;
+    color: rgb(66, 66, 66);
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.our__product {
+    padding-top: 10px;
+    color: rgb(1, 153, 109);
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 585px;
+}
+
+.product__text {
+    padding-top: 20px;
+    max-width: 530px;
+    height: 81px;
+    color: rgb(72, 72, 72);
+    position: relative;
+    padding-right: 194px;
+}
+
+.product__button {
+    padding-top: 40px;
+    /* btn-primary */
+    position: relative;
+    width: 227px;
+    height: 65px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 153, 109);
+    border-radius: 4px;
+
+    background: rgb(1, 153, 109);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.line {
+    margin-top: 7px;
+    margin-bottom: 14px;
+    border: 0.75px solid rgb(0, 0, 0);
+    background-color: black;
+    height: 0px;
+    width: 110px;
+    margin-left: 91px;
+}
+
+/* product */
+
+/* footer */
+
+.footer {}
+
+.footer__wraper {
+    position: absolute;
+    top: 3568px;
+    background: rgb(36, 88, 82);
+    width: 1920px;
+    height: 654px;
+    left: 0;
+    right: 0;
+}
+
+footer .footer__logo {
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 275px;
+    padding-top: 95px;
+}
+
+.footer__list {
+    padding-left: 275px;
+
+}
+
+.list a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: beige;
+}
+
+.list {
+    list-style: none;
+}
+
+.list__item {
+    padding-top: 60px;
+}
+
+.footer__menu {}
+
+.social__item img {
+
+
+    /* Відступ між елементами */
+}
+
+.social {
+    display: flex;
+    /* Розташовувати елементи паралельно */
+    align-items: center;
+    /* Вирівнювання елементів по вертикалі */
+
+
+}
+
+.footer__menu {}
+
+.outbound {
+    padding-left: 752px;
+
+}
+
+.social__item img {
+    border-radius: 50%;
+    background-color: white;
+    padding: 30px;
+    align-items: center;
+}
+
+.social__item {
+    position: relative;
+    padding-right: 60px;
+    top: 21px;
+
+}
+
+.social__item:nth-child(1) img {
+    padding: 30px 40px;
+}
+
+.social__item:nth-child(2) img {
+    width: 30px;
+    height: 30px;
+    background: conic-gradient(from 180deg at 50% 50%,
+            rgb(128, 164, 206),
+            rgb(242, 137, 170) 0%,
+            rgb(198, 139, 240) 10%,
+            rgb(209, 100, 218) 20%,
+            rgb(201, 99, 232) 30%,
+            rgb(191, 194, 232) 40%,
+            rgb(255, 201, 153) 50%,
+            rgb(208, 216, 201) 60%,
+            rgb(186, 208, 241) 70%,
+            rgb(206, 216, 203) 80%,
+            rgb(226, 224, 203) 90%,
+            rgb(131, 235, 235) 100%,
+            rgba(255, 255, 255, 0) 90%);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.discover {
+    position: relative;
+    top: -100px;
+    left: 643px;
+}
+
+.discover__title {
+    position: relative;
+    left: 131px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: 0.5%;
+    text-align: left;
+}
+
+.store__buttons {
+    width: 446px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 26px;
+}
+
+.store__buttons button {
+    width: 216px;
+    height: 65px;
+    color: azure;
+    border: none;
+    border-radius: 17.5px;
+    background: rgb(8, 8, 9);
+}
+
+.apple_store .apple img:nth-child(1) {
+    width: 26px;
+    height: 32px;
+    padding-right: 10px;
+}
+
+.google_play .google img:nth-child(1) {
+    padding-right: 10px;
+}
+
+.apple_store .apple img:nth-child(2) {
+    width: 110.01px;
+    height: 32.4px;
+}
+
+.google_play {
+    width: 216px;
+}
+
+.apple_store {}
+
+/* footer */
